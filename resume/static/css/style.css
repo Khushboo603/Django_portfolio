@@ -45,3 +45,19 @@ body {
     color: #fff;
     font-size: 44px;
 }
+
+.social_links {
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid #CCC;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_links img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
