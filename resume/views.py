@@ -6,3 +6,16 @@ def home(request):
 
 def about (request):
     return render (request, "about.html")
+
+def projects(request):
+    projects_show = [
+        {
+            "title": "SmartOSM",
+            "path": "images/smartOSM.png"
+        },
+        {
+            "title": "Pro-digi",
+            "path": "images/prodigi.png"
+        }
+    ]
+    return render (request, "projects.html",  {"projects_show": projects_show})
